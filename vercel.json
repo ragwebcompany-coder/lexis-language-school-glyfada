@@ -1,4 +1,28 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/english", "destination": "/#languages", "permanent": true },
+    { "source": "/french", "destination": "/#languages", "permanent": true },
+    { "source": "/german", "destination": "/#languages", "permanent": true },
+    { "source": "/spanish", "destination": "/#languages", "permanent": true },
+    { "source": "/languages", "destination": "/#languages", "permanent": true },
+    { "source": "/about", "destination": "/#heritage", "permanent": true },
+    { "source": "/teachers", "destination": "/#teachers", "permanent": true },
+    { "source": "/contact", "destination": "/#contact", "permanent": true },
+    { "source": "/e-learning", "destination": "/#languages", "permanent": true },
+    { "source": "/elearning", "destination": "/#languages", "permanent": true },
+    { "source": "/αγγλικά", "destination": "/#languages", "permanent": true },
+    { "source": "/γαλλικά", "destination": "/#languages", "permanent": true },
+    { "source": "/γερμανικά", "destination": "/#languages", "permanent": true },
+    { "source": "/ισπανικά", "destination": "/#languages", "permanent": true },
+    { "source": "/σχετικα-με-εμασ", "destination": "/#heritage", "permanent": true },
+    { "source": "/σχετικά-με-εμάς", "destination": "/#heritage", "permanent": true },
+    { "source": "/οι-δασκαλοι-μασ", "destination": "/#teachers", "permanent": true },
+    { "source": "/οι-δασκάλοι-μας", "destination": "/#teachers", "permanent": true },
+    { "source": "/γιατί-να-μάθω-μία-ξένη-γλώσσα", "destination": "/#why", "permanent": true },
+    { "source": "/γιατι-να-μαθω-μια-ξενη-γλωσσα", "destination": "/#why", "permanent": true },
+    { "source": "/επικοινωνία", "destination": "/#contact", "permanent": true },
+    { "source": "/επικοινωνια", "destination": "/#contact", "permanent": true }
+  ]
 }
